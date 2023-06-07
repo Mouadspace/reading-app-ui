@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 class BookTitle extends StatelessWidget {
   final double paddingTop;
+  final double? paddingBottom;
+
   final String text;
   final String? subText;
 
@@ -10,6 +12,7 @@ class BookTitle extends StatelessWidget {
     required this.paddingTop,
     required this.text,
     this.subText,
+    this.paddingBottom,
   });
 
   @override
@@ -27,14 +30,16 @@ class BookTitle extends StatelessWidget {
               fontFamily: "serif",
             ),
           ),
-          Text(
-            subText != null ? subText.toString() : "",
-            style: const TextStyle(
-              fontSize: 23,
-              fontFamily: "serif",
-              height: 1.5,
-            ),
-          )
+          const SizedBox(height: 9),
+          subText != null
+              ? Text(
+                  subText.toString(),
+                  style: const TextStyle(
+                    fontSize: 23,
+                    fontFamily: "serif",
+                  ),
+                )
+              : const SizedBox(),
         ],
       ),
     );
