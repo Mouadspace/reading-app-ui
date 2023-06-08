@@ -4,4 +4,7 @@
 
 ## Screenshot
 
-<img src="https://github.com/Mouadspace/reading-app-ui/assets/121675898/734f5d86-17c1-42fa-bee8-74bbe19a3ed9" width="150" >
+<div align='center'>
+  <img src='https://github.com/Mouadspace/reading-app-ui/assets/121675898/8a2c7197-6520-45bb-a419-1c02bec9d625' width="200">
+  <img src='https://github.com/Mouadspace/reading-app-ui/assets/121675898/eccb4203-95be-42ee-bf4a-dc5e55ab032c' width="200">
+</div>
